@@ -1,0 +1,7 @@
+C:\Users\jules\source\repos\Jules-Pchot\PPEApp\Gestion_Doc\Gestion_Doc\obj\Debug\Gestion_Doc.csproj.AssemblyReference.cache
+C:\Users\jules\source\repos\Jules-Pchot\PPEApp\Gestion_Doc\Gestion_Doc\obj\Debug\Connexion.baml
+C:\Users\jules\source\repos\Jules-Pchot\PPEApp\Gestion_Doc\Gestion_Doc\obj\Debug\Connexion.g.cs
+C:\Users\jules\source\repos\Jules-Pchot\PPEApp\Gestion_Doc\Gestion_Doc\obj\Debug\MainWindow.g.cs
+C:\Users\jules\source\repos\Jules-Pchot\PPEApp\Gestion_Doc\Gestion_Doc\obj\Debug\App.g.cs
+C:\Users\jules\source\repos\Jules-Pchot\PPEApp\Gestion_Doc\Gestion_Doc\obj\Debug\Gestion_Doc_MarkupCompile.cache
+C:\Users\jules\source\repos\Jules-Pchot\PPEApp\Gestion_Doc\Gestion_Doc\obj\Debug\Gestion_Doc_MarkupCompile.lref

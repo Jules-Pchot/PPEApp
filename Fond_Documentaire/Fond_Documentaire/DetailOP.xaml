@@ -1,0 +1,33 @@
+﻿<Window x:Class="Fond_Documentaire.DetailOP"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fond_Documentaire"
+        mc:Ignorable="d"
+        Title="DetailOP" Height="450" Width="1200">
+    <Grid Margin="0,0,0,157">
+        <ListView Name="listView" ScrollViewer.HorizontalScrollBarVisibility="Auto" Grid.Column="0" ScrollViewer.VerticalScrollBarVisibility="Auto" Margin="0,10,10,-38">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ISBN" DisplayMemberBinding="{Binding ISBN}"></GridViewColumn>
+                    <GridViewColumn Header="Titre" DisplayMemberBinding="{Binding Titre}"></GridViewColumn>
+                    <GridViewColumn Header="Auteur" DisplayMemberBinding="{Binding Auteur}"></GridViewColumn>
+                    <GridViewColumn Header="identifiant" DisplayMemberBinding="{Binding identifiant}"></GridViewColumn>
+                    <GridViewColumn Header="Type_notice" DisplayMemberBinding="{Binding Type_notice}"></GridViewColumn>
+                    <GridViewColumn Header="Type_doc" DisplayMemberBinding="{Binding Type_doc}"></GridViewColumn>
+                    <GridViewColumn Header="Localisation" DisplayMemberBinding="{Binding Localisation}"></GridViewColumn>
+                    <GridViewColumn Header="nbExemplaire" DisplayMemberBinding="{Binding nbExemplaire}"></GridViewColumn>
+                    <GridViewColumn Header="Contributeur" DisplayMemberBinding="{Binding Contributeur}"></GridViewColumn>
+                    <GridViewColumn Header="Date" DisplayMemberBinding="{Binding Date}"></GridViewColumn>
+                    <GridViewColumn Header="Description" DisplayMemberBinding="{Binding Description}"></GridViewColumn>
+                    <GridViewColumn Header="Sujet" DisplayMemberBinding="{Binding Sujet}"></GridViewColumn>
+                    <GridViewColumn Header="Couverture" DisplayMemberBinding="{Binding Couverture}"></GridViewColumn>
+                    <GridViewColumn Header="Langue" DisplayMemberBinding="{Binding Langue}"></GridViewColumn>
+                    <GridViewColumn Header="Format" DisplayMemberBinding="{Binding Format}"></GridViewColumn>
+                    <GridViewColumn Header="MyUnknowColmun" DisplayMemberBinding="{Binding MyUnknowColmun}"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
