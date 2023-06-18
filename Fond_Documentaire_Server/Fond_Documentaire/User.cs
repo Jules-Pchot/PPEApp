@@ -126,7 +126,7 @@ namespace Fond_Documentaire
         {
             string sql;
             var cmd = new MySqlCommand();
-            sql = "UPDATE user SET pseudo = @pseudo AND id_role = @id_role AND Est_Activer=@Est_Activer WHERE id = @id";
+            sql = "UPDATE user SET pseudo = @pseudo, id_role = @id_role, EstActiver=@Est_Activer WHERE id = @id";
             sql = Tools.PrepareLigne(sql, "@pseudo", Tools.PrepareChamp(pseudo, "Chaine"));
             sql = Tools.PrepareLigne(sql, "@id_role", Tools.PrepareChamp(id_role.ToString(), "Nombre"));
             sql = Tools.PrepareLigne(sql, "@Est_Activer", Tools.PrepareChamp(IsActive.ToString(), "Nombre"));
@@ -153,7 +153,7 @@ namespace Fond_Documentaire
             try
             {
                 var cmd = new MySqlCommand();
-                sql = "INSERT INTO user (pseudo,mdp,id_role,Est_Activer) VALUES (@pseudo,@mdp ,@id,@active)";// ajouter une colonne timestamp qui contient la date et l'heure courante
+                sql = "INSERT INTO user (pseudo,mdp,id_role,EstActiver) VALUES (@pseudo,@mdp ,@id,@active)";// ajouter une colonne timestamp qui contient la date et l'heure courante
                 sql = Tools.PrepareLigne(sql, "@pseudo", Tools.PrepareChamp(newPseudo, "Chaine"));
                 sql = Tools.PrepareLigne(sql, "@mdp", Tools.PrepareChamp(newMDP, "Chaine"));
                 sql = Tools.PrepareLigne(sql, "@id", Tools.PrepareChamp(idRole.ToString(), "Nombre"));

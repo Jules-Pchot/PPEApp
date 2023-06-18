@@ -14,7 +14,7 @@
                 <GridView>
                     <GridViewColumn Header="User ID" DisplayMemberBinding="{Binding ID}"></GridViewColumn>
                     <GridViewColumn Header="User Pseudo" DisplayMemberBinding="{Binding PSEUDO}"></GridViewColumn>
-                    <GridViewColumn Header="USer MDP" DisplayMemberBinding="{Binding MDP}"></GridViewColumn>
+                    <GridViewColumn Header="User MDP" DisplayMemberBinding="{Binding MDP}"></GridViewColumn>
                     <GridViewColumn Header="Role ID" DisplayMemberBinding="{Binding ID_ROLE}"></GridViewColumn>
                     <GridViewColumn Header="Est Activer" DisplayMemberBinding="{Binding Est_Activer}"></GridViewColumn>
                 </GridView>
