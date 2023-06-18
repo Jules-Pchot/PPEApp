@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\jules\source\repos\Jules-Pchot\PPEApp\Fond_Documentaire\Fond_Documentaire\obj\Debug\
+C:\Users\jules\source\repos\Jules-Pchot\PPEApp\Fond_Documentaire_Server\Fond_Documentaire\obj\Debug\
 Fond_Documentaire
 none
 false
 DEBUG;TRACE
-C:\Users\jules\source\repos\Jules-Pchot\PPEApp\Fond_Documentaire\Fond_Documentaire\App.xaml
+C:\Users\jules\source\repos\Jules-Pchot\PPEApp\Fond_Documentaire_Server\Fond_Documentaire\App.xaml
 5-137581236
 
-16-1781475448
-31-1034538141
+171671132481
+311175292638
 DetailOP.xaml;Form_Admin.xaml;Form_Op.xaml;LogWindow.xaml;MainWindow.xaml;
 
-False
+True
 
