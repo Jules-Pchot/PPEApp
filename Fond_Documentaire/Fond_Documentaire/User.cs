@@ -126,7 +126,7 @@ namespace Fond_Documentaire
         {
             string sql;
             var cmd = new MySqlCommand();
-            sql = "UPDATE user SET pseudo = @pseudo AND id_role = @id_role AND Est_Activer=@Est_Activer WHERE id = @id";
+            sql = "UPDATE user SET pseudo = @pseudo, id_role = @id_role,EstActiver=@Est_Activer WHERE id = @id";
             sql = Tools.PrepareLigne(sql, "@pseudo", Tools.PrepareChamp(pseudo, "Chaine"));
             sql = Tools.PrepareLigne(sql, "@id_role", Tools.PrepareChamp(id_role.ToString(), "Nombre"));
             sql = Tools.PrepareLigne(sql, "@Est_Activer", Tools.PrepareChamp(IsActive.ToString(), "Nombre"));

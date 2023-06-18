@@ -62,8 +62,10 @@ namespace Fond_Documentaire
 
                     int index = Afficheur_User.IndexOf((User)_listView.SelectedItem);
                     User oldUser = Afficheur_User[index];
-                    Afficheur_User[index] = new User(oldUser.ID, TextPseudo.Text, oldUser.MDP, int.Parse(ID_ROLEbox.Text),Active());
-                    Afficheur_User[index].Modify(connection, TextPseudo.Text, int.Parse(ID_ROLEbox.Text), oldUser.ID,Active());
+                    string nouveauPseudo = TextPseudo.Text;
+                    int nouvelID = int.Parse(ID_ROLEbox.Text);
+                    Afficheur_User[index] = new User(oldUser.ID, nouveauPseudo, oldUser.MDP, nouvelID, Active());
+                    Afficheur_User[index].Modify(connection, nouveauPseudo, nouvelID, oldUser.ID, Active());
                     connection.Close();
                 }
             }
