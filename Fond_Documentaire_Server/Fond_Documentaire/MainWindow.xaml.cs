@@ -31,10 +31,10 @@ namespace Fond_Documentaire
             string pseudo = txtUsername.Text;
             string mdp = txtPassword.Password;
             DBConnection connection = new DBConnection();
-            connection.Server = "127.0.0.1";
-            connection.DatabaseName = "fond_doc";
-            connection.UserName = "visualstudio";
-            connection.Password = "ppevallade";
+            connection.Server = "13.81.251.33";
+            connection.DatabaseName = "julesp_ppe";
+            connection.UserName = "developer";
+            connection.Password = "cerfal1313";
 
             if (connection.IsConnect())
             {
@@ -103,10 +103,10 @@ namespace Fond_Documentaire
             string pseudo = txtUsername.Text;
             string mdp = txtPassword.Password;
             DBConnection connection = new DBConnection();
-            connection.Server = "127.0.0.1";
-            connection.DatabaseName = "fond_doc";
-            connection.UserName = "visualstudio";
-            connection.Password = "ppevallade";
+            connection.Server = "13.81.251.33";
+            connection.DatabaseName = "julesp_ppe";
+            connection.UserName = "developer";
+            connection.Password = "cerfal1313";
 
 
             // Connexion
@@ -166,10 +166,10 @@ namespace Fond_Documentaire
         {
             // Information de Connexion
             DBConnection connection = new DBConnection();
-            connection.Server = "127.0.0.1";
-            connection.DatabaseName = "fond_doc";
-            connection.UserName = "visualstudio";
-            connection.Password = "ppevallade";
+            connection.Server = "13.81.251.33";
+            connection.DatabaseName = "julesp_ppe";
+            connection.UserName = "developer";
+            connection.Password = "cerfal1313";
 
             //Envoi des logs
             string Lepseudo = txtUsername.Text;
