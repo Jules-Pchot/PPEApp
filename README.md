@@ -1,2 +1,2 @@
 # PPEApp
-Projet BTS Blanc C#, .REST, mobile, Desktop
+Projet BTS C#, Desktop, XAML
